@@ -1,0 +1,11 @@
+public class Conc {
+        public static String concatStr() {
+            String string1 = "One string";
+            String string2 = "Second string";
+            String string3 = string1.concat(string2);
+            return string3 ;
+        }
+        public static void main(String[] args) {
+            System.out.println(concatStr());
+        }
+}

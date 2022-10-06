@@ -1,0 +1,15 @@
+public class StringCompare {
+    public static boolean compareStr() {
+        String s1 = "StringTatyana";
+        int len1 = s1.length();
+        String s2 = "StringTanyaPi";
+        int len2 = s2.length();
+        System.out.println("Line length \"StringTatyana\" " + len1 + "symbols.");
+        System.out.println("Line length \"StringTanyaPi\" " + len2 + "symbols.");
+        if (len1 == len2) {
+            System.out.println("Equal strings length");
+        } else {
+            return false;
+        }
+        return true;
+    }
